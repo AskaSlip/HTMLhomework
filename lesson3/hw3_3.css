@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    font-size: 30px;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 200;
+}
+p {
+    width: 90%;
+    margin: 50px 0;
+    font-size: 30px;
+}
+.pink {
+    background-color: pink;
+    height: 50vh;
+}
+
+.grey {
+    background-color: grey;
+    height: 50vh;
+}
