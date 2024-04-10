@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    height: 100vh;
+}
+
+.firstScroll {
+    width: 100%;
+    background-image: url(1back.png);
+    background-size: cover;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "KoHo", sans-serif;
+
+}
+
+.secondScroll, .thirdScroll {
+    width: 100%;
+    background-image: url(2back.png);
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+.firstBox {
+    width: 70vw;
+    height: 393px;
+    flex-shrink: 0;
+    background: #FAF9F7;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+.rightSide {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#p1 {
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    font-weight: 400;
+
+}
+
+#p2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 44px 0;
+}
+
+.rightSide > button {
+    width: 409px;
+    height: 76px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-weight: 400;
+
+}
